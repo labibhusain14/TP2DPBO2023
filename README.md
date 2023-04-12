@@ -19,7 +19,14 @@ Buatlah program Java yang terkoneksi dengan database MySQL. Berikut spesifikasi 
 ### UML
 
 ![UML drawio](https://user-images.githubusercontent.com/119772365/231506846-f215e3f8-1dad-4bd4-be60-d00b9f5cdd91.png)
-
+* Config : merupakan sebuah kelas dibuat untuk mengkoneksikan ke database.
+* Login : merupakan sebuah kelas JFRame yang dibuat untuk autentikasi login.Terdapat atribut db didalamnya untuk menyambungkan ke kelas Config agar dapat terkoneksi dengan database.Di dalam kelas ini juga terdapat 2 button,yaitu berupa button login yang akan mengarahkan ke home page dari masing-masing role,dan button register yang akan mengarahkan ke register page.
+* Register : merupakan sebuah kelas JFRame yang dibuat untuk pendaftaran akun.Terdapat atribut db didalamnya untuk menyambungkan ke kelas Config agar dapat terkoneksi dengan database.Di dalam kelas ini juga terdapat 2 button,yaitu berupa button submit yang akan mengarahkan ke login page dan sebagai informasi bahwa berhasil mendaftarkan akun,kemudian button cancel yang hanbya sekedar berpindah ke login page.
+* Beranda : Home page untuk akun seller.
+* Home : Home page untuk akun customer.
+* seller : JCard Panel yang berisi data-data produk dari seller.
+* Customer : JCard Panel yang berisi data-data produk yang direkomendasikan untuk customer.
+* 
 ## *Database*
 
 ![Screenshot 2023-04-12 191535](https://user-images.githubusercontent.com/119772365/231454449-157d052e-e869-47cd-b320-6cadd3402fc7.png)
