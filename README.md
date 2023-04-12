@@ -18,7 +18,8 @@ Buatlah program Java yang terkoneksi dengan database MySQL. Berikut spesifikasi 
 ## *Desain Program*
 ### UML
 
-![UML drawio](https://user-images.githubusercontent.com/119772365/231506846-f215e3f8-1dad-4bd4-be60-d00b9f5cdd91.png)
+![UML drawio (1)](https://user-images.githubusercontent.com/119772365/231512971-c694b843-7b44-4c10-b295-881b83152ea7.png)
+
 * Config : merupakan sebuah kelas dibuat untuk mengkoneksikan ke database.
 * Login : merupakan sebuah kelas JFRame yang dibuat untuk autentikasi login.Terdapat atribut db didalamnya untuk menyambungkan ke kelas Config agar dapat terkoneksi dengan database.Di dalam kelas ini juga terdapat 2 button,yaitu berupa button login yang akan mengarahkan ke home page dari masing-masing role,dan button register yang akan mengarahkan ke register page.
 * Register : merupakan sebuah kelas JFRame yang dibuat untuk pendaftaran akun.Terdapat atribut db didalamnya untuk menyambungkan ke kelas Config agar dapat terkoneksi dengan database.Di dalam kelas ini juga terdapat 2 button,yaitu berupa button submit yang akan mengarahkan ke login page dan sebagai informasi bahwa berhasil mendaftarkan akun,kemudian button cancel yang hanbya sekedar berpindah ke login page.
@@ -76,13 +77,18 @@ Login:
 ![Screenshot 2023-04-12 192217](https://user-images.githubusercontent.com/119772365/231455686-a91a02ef-f8cd-4ecb-ad53-babfe4365e18.png)
 
 2. Setelah login, maka akan muncul beberapa rekomendasi produk untuk anda,tampilannya sebagai berikut:
+
 ![Screenshot 2023-04-12 192155](https://user-images.githubusercontent.com/119772365/231455879-24fc68f3-4e1c-4736-836c-b1c02f228570.png)
+
 3. Anda bisa keluar dari akun dengan menekan button logout pada ujung kanan atas.
 * Seller
 1. Login terllebih dahulu dengan akun yang sudah tertera.Jika tidak ada akun,bisa registrasi dengan memilih role seller.**Untuk Gambar sama seperti Customer*.
 2. Setelah login, maka akan muncul beberapa produk yang dijual,tampilannya sebagai berikut:
+
 ![Screenshot 2023-04-12 193118](https://user-images.githubusercontent.com/119772365/231458018-e1e64567-475d-4313-959b-6c1c63eac8f8.png)
+
 3. Untuk menambahkan produk,bisa dengan menekan button Add Produk.Lalu isi semua data-data produk.
+
 ![Screenshot 2023-04-12 193543](https://user-images.githubusercontent.com/119772365/231459097-8315a504-74d3-4bd5-a44b-b09e4d776db7.png)
 
 Maka produk yang sudah ditambahkan akan muncul di tampilan home produk yang dijual
