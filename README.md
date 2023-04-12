@@ -22,11 +22,12 @@ Buatlah program Java yang terkoneksi dengan database MySQL. Berikut spesifikasi 
 * Config : merupakan sebuah kelas dibuat untuk mengkoneksikan ke database.
 * Login : merupakan sebuah kelas JFRame yang dibuat untuk autentikasi login.Terdapat atribut db didalamnya untuk menyambungkan ke kelas Config agar dapat terkoneksi dengan database.Di dalam kelas ini juga terdapat 2 button,yaitu berupa button login yang akan mengarahkan ke home page dari masing-masing role,dan button register yang akan mengarahkan ke register page.
 * Register : merupakan sebuah kelas JFRame yang dibuat untuk pendaftaran akun.Terdapat atribut db didalamnya untuk menyambungkan ke kelas Config agar dapat terkoneksi dengan database.Di dalam kelas ini juga terdapat 2 button,yaitu berupa button submit yang akan mengarahkan ke login page dan sebagai informasi bahwa berhasil mendaftarkan akun,kemudian button cancel yang hanbya sekedar berpindah ke login page.
-* Beranda : Home page untuk akun seller.
-* Home : Home page untuk akun customer.
-* seller : JCard Panel yang berisi data-data produk dari seller.
-* Customer : JCard Panel yang berisi data-data produk yang direkomendasikan untuk customer.
-* 
+* Beranda : Home page untuk akun seller.Di dalamnya dapat menambahkan produk baru dengan memanggil kelas FormSeller.
+* Home : Home page untuk akun customer.Hanya menampilkan produk-produk yang direkomendasikan kepada customer.
+* seller : JCard Panel yang berisi data-data produk dari seller.Nantinya akan dipanggil di kelas Beranda.Di dalam kelas ini,user dapat mengubah produk dengan memanggil kelas FormUpdate dan juga dapat menghapus produk yang dipilih.
+* Customer : JCard Panel yang berisi data-data produk yang direkomendasikan untuk customer.Nantinya akan dipanggil di kelas Home.
+* FormSeller : Kelas untuk menambahkan produk baru dari kelas seller.Dipanggil dari kelas Beranda.Dan dapat dilihat tampilan penambahan produknya pada kelas Beranda.
+* FormUpdate : Kelas untuk mengubah data produk yang dpilih dari kelas seller.Kelas ini nantinya akan dipanggil pada kelas seller ketika user menekan button edit.User dapat mengubah-ubah data produk baik text ataupun image.Setelah User selesai mengubah datanya,maka program akan menampilkan hasil perubahannya melalui kelas Beranda.
 ## *Database*
 
 ![Screenshot 2023-04-12 191535](https://user-images.githubusercontent.com/119772365/231454449-157d052e-e869-47cd-b320-6cadd3402fc7.png)
