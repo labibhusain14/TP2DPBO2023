@@ -17,6 +17,12 @@ Buatlah program Java yang terkoneksi dengan database MySQL. Berikut spesifikasi 
 
 ## *Desain Program*
 
+## *Database*
+
+![Screenshot 2023-04-12 191535](https://user-images.githubusercontent.com/119772365/231454449-157d052e-e869-47cd-b320-6cadd3402fc7.png)
+
+ga ada relasi databasenya,lupa kak caranya gimana
+
 ## *Desain GUI*
 * Home Seller
 
@@ -46,7 +52,46 @@ Buatlah program Java yang terkoneksi dengan database MySQL. Berikut spesifikasi 
 
 ![Screenshot 2023-04-12 190733](https://user-images.githubusercontent.com/119772365/231452346-c3bd376e-aa0e-4eac-b999-98206f5197bd.png)
 
-## *Dokumentasi*
+## *Alur Program*
+* Customer 
+1. Login terllebih dahulu dengan akun yang sudah tertera.Jika tidak ada akun,bisa registrasi dengan memilih role customer.
+
+Registrasi:
+
+![Screenshot 2023-04-12 192618](https://user-images.githubusercontent.com/119772365/231456660-bc23bad1-b55c-47a8-8f57-6fb04385c12a.png)
+
+Login:
+
+![Screenshot 2023-04-12 192217](https://user-images.githubusercontent.com/119772365/231455686-a91a02ef-f8cd-4ecb-ad53-babfe4365e18.png)
+
+2. Setelah login, maka akan muncul beberapa rekomendasi produk untuk anda,tampilannya sebagai berikut:
+![Screenshot 2023-04-12 192155](https://user-images.githubusercontent.com/119772365/231455879-24fc68f3-4e1c-4736-836c-b1c02f228570.png)
+3. Anda bisa keluar dari akun dengan menekan button logout pada ujung kanan atas.
+* Seller
+1. Login terllebih dahulu dengan akun yang sudah tertera.Jika tidak ada akun,bisa registrasi dengan memilih role seller.**Untuk Gambar sama seperti Customer*.
+2. Setelah login, maka akan muncul beberapa produk yang dijual,tampilannya sebagai berikut:
+![Screenshot 2023-04-12 193118](https://user-images.githubusercontent.com/119772365/231458018-e1e64567-475d-4313-959b-6c1c63eac8f8.png)
+3. Untuk menambahkan produk,bisa dengan menekan button Add Produk.Lalu isi semua data-data produk.
+![Screenshot 2023-04-12 193543](https://user-images.githubusercontent.com/119772365/231459097-8315a504-74d3-4bd5-a44b-b09e4d776db7.png)
+
+Maka produk yang sudah ditambahkan akan muncul di tampilan home produk yang dijual
+
+![Screenshot 2023-04-12 193728](https://user-images.githubusercontent.com/119772365/231459749-dc32152f-8bf9-45a6-b90b-813895d2f5ae.png)
+
+4. Seller juga bisa mengubah data produk dengan menekan button edit dari produk yang ingin diubah.Lalu,isi data yang ingin diubah.
+![Screenshot 2023-04-12 194056](https://user-images.githubusercontent.com/119772365/231460559-c450c743-6647-470a-91b2-5367f193273f.png)
+
+Maka tampilan pada home seller akan kembali berubah:
+
+![Screenshot 2023-04-12 194238](https://user-images.githubusercontent.com/119772365/231460782-c7dd6454-a462-4077-99bd-b02a7b35ee62.png)
+
+5. Seller juga bisa menghapus produk dengan menekan button delete pada produk yang ingin dihapus.:
+
+![Screenshot 2023-04-12 194655](https://user-images.githubusercontent.com/119772365/231461919-3b3b5cdb-7a4f-48ea-b26d-9c23c87ece7f.png)
+
+![Screenshot 2023-04-12 194705](https://user-images.githubusercontent.com/119772365/231461929-cf03e649-c523-4dd3-becd-03f0bbee4276.png)
+
+6. Anda bisa keluar dari akun dengan menekan button logout pada ujung kanan atas.
 ## *Akun*
 * Customer = Username : admin1 , Password : abc
 * Seller = Username : admin2 , Password : efg
