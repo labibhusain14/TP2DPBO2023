@@ -21,7 +21,7 @@ Buatlah program Java yang terkoneksi dengan database MySQL. Berikut spesifikasi 
 
 ![Screenshot 2023-04-12 191535](https://user-images.githubusercontent.com/119772365/231454449-157d052e-e869-47cd-b320-6cadd3402fc7.png)
 
-ga ada relasi databasenya,lupa kak caranya gimana
+ga ada relasi databasenya,lupa cara ngehubunginnya kak.
 
 ## *Desain GUI*
 * Home Seller
