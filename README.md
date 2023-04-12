@@ -79,6 +79,7 @@ Maka produk yang sudah ditambahkan akan muncul di tampilan home produk yang diju
 ![Screenshot 2023-04-12 193728](https://user-images.githubusercontent.com/119772365/231459749-dc32152f-8bf9-45a6-b90b-813895d2f5ae.png)
 
 4. Seller juga bisa mengubah data produk dengan menekan button edit dari produk yang ingin diubah.Lalu,isi data yang ingin diubah.
+
 ![Screenshot 2023-04-12 194056](https://user-images.githubusercontent.com/119772365/231460559-c450c743-6647-470a-91b2-5367f193273f.png)
 
 Maka tampilan pada home seller akan kembali berubah:
