@@ -16,6 +16,9 @@ Buatlah program Java yang terkoneksi dengan database MySQL. Berikut spesifikasi 
 * Boleh login dan/atau register. Tidak perlu ada enkripsi password
 
 ## *Desain Program*
+### UML
+
+![UML drawio](https://user-images.githubusercontent.com/119772365/231506846-f215e3f8-1dad-4bd4-be60-d00b9f5cdd91.png)
 
 ## *Database*
 
