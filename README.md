@@ -93,5 +93,7 @@ Maka tampilan pada home seller akan kembali berubah:
 
 6. Anda bisa keluar dari akun dengan menekan button logout pada ujung kanan atas.
 ## *Akun*
+Gatau kenapa yang file.jar nya ga kebaca databasenya.Untuk link video penggunaan bisa dilihat melalui link berikut:
+https://youtu.be/QghhvGCc7d8
 * Customer = Username : admin1 , Password : abc
 * Seller = Username : admin2 , Password : efg
